@@ -41,7 +41,7 @@ const defaultState: AppState = {
                 isTestNet: true,
             },
         ],
-        repoUrl: "https://github.com/",
+        repoUrl: "https://github.com/PrismETH",
         stats: null,
     },
 };
