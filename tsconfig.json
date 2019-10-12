@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "target": "es2017",
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": [
+                "src/assets/*"
+            ],
+            "@common/*": [
+                "src/common/*"
+            ],
+            "@redux/*": [
+                "src/redux/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@view/*": [
+                "src/view/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
